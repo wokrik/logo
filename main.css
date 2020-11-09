@@ -1,0 +1,66 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.image__ring {
+  box-sizing: border-box;
+  width: 82px;
+  height: 82px;
+  border: 16px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image__inner-triangle {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-top-width: 17px;
+  border-bottom-width: 17px;
+  border-right: 25px solid #00adff;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.image__outer-triangle {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-top-width: 25px;
+  border-bottom-width: 25px;
+  border-right: 45px solid white;
+  position: absolute;
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 10px;
+}
+
+.text__bottom {
+  display: flex;
+}
+
+.text__extra {
+  font-size: 0.38em;
+  font-weight: normal;
+  letter-spacing: 0;
+  margin-left: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.text__main {
+  color: #00adff;
+}
